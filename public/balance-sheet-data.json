@@ -1,0 +1,134 @@
+[
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "CurrentAsset",
+        "accountNumber": "C1000",
+        "accountName": "Cash",
+        "debitCredit": "Debit",
+        "openDebitBalance": 1000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 1100.00,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "CurrentAsset",
+        "accountNumber": "C1001",
+        "accountName": "Petty Cash",
+        "debitCredit": "Debit",
+        "openDebitBalance": 100.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 0.00,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "CurrentAsset",
+        "accountNumber": "A1000",
+        "accountName": "Accounts Receivable",
+        "debitCredit": "Debit",
+        "openDebitBalance": 3200.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 1100.00,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "LongTermAsset",
+        "accountNumber": "A100",
+        "accountName": "Investments",
+        "debitCredit": "Debit",
+        "openDebitBalance": 20000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 18000.00,
+        "ytdCreditValue": 2000
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "LongTermAsset",
+        "accountNumber": "A101",
+        "accountName": "Land",
+        "debitCredit": "Debit",
+        "openDebitBalance": 5000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 0,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "LongTermAsset",
+        "accountNumber": "B1000",
+        "accountName": "Building",
+        "debitCredit": "Debit",
+        "openDebitBalance": 180000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 0,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "LongTermAsset",
+        "accountNumber": "Dep1000",
+        "accountName": "Accumulated Depreciation",
+        "debitCredit": "Credit",
+        "openDebitBalance": 0,
+        "openCreditBalance": 56000,
+        "ytdDebitValue": 0,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "CurrentLiabilities",
+        "accountNumber": "CL1000",
+        "accountName": "Accoiunts Payable",
+        "debitCredit": "Credit",
+        "openDebitBalance": 20000,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 16000,
+        "ytdCreditValue": 100
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "CurrentLiabilities",
+        "accountNumber": "CL10001",
+        "accountName": "Interest Payable",
+        "debitCredit": "Credit",
+        "openDebitBalance": 0,
+        "openCreditBalance": 2200,
+        "ytdDebitValue": 1000,
+        "ytdCreditValue": 2000
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "LongTermLiabilities",
+        "accountNumber": "L1000",
+        "accountName": "Notes Payable",
+        "debitCredit": "Credit",
+        "openDebitBalance": 0,
+        "openCreditBalance": 20000,
+        "ytdDebitValue": 2000,
+        "ytdCreditValue": 4000
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "Equity",
+        "accountNumber": "S1000",
+        "accountName": "Common Stock",
+        "debitCredit": "Credit",
+        "openDebitBalance": 0,
+        "openCreditBalance": 11000,
+        "ytdDebitValue": 0,
+        "ytdCreditValue": 0
+    },
+    {
+        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "category": "Retained Earnings",
+        "accountNumber": "R1000",
+        "accountName": "Retained Earnings",
+        "debitCredit": "Credit",
+        "openDebitBalance": 0,
+        "openCreditBalance": 220000,
+        "ytdDebitValue": 0,
+        "ytdCreditValue": 30000
+    }
+]
