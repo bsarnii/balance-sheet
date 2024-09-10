@@ -20,6 +20,6 @@ export enum ItemCategoryEnum {
 }
 
 export enum DebitCreditEnum {
-    debit = 'debit',
-    credit = 'credit'
+    debit = 'Debit',
+    credit = 'Credit'
 }

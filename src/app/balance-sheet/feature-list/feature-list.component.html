@@ -1,3 +1,15 @@
-@for(data of facade.data(); track $index){
-    <h2>{{data.category}}</h2>
-}
+<app-balance-sheet-section
+    heading="ASSETS"
+    [dataAfterCategory]="sortedDataAfterCategory()"
+    [sectionCategories]="[ItemCategoryEnum.current_asset, ItemCategoryEnum.long_term_asset]"
+/>
+<app-balance-sheet-section
+    heading="LIABILITES"
+    [dataAfterCategory]="sortedDataAfterCategory()"
+    [sectionCategories]="[ItemCategoryEnum.current_liabilities, ItemCategoryEnum.long_term_liabilities]"
+/>
+<app-balance-sheet-section
+    heading="STOCKHOLDER'S EQUITY"
+    [dataAfterCategory]="sortedDataAfterCategory()"
+    [sectionCategories]="[ItemCategoryEnum.equity, ItemCategoryEnum.retained_earnings]"
+/>

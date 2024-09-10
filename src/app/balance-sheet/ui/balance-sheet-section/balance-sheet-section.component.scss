@@ -1,0 +1,14 @@
+.heading{
+    color:#064561;
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #064561;
+}
+.section > *{
+    font-size: 20px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
