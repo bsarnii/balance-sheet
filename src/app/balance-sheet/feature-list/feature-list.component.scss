@@ -1,7 +1,13 @@
 :host{
     width: 300px;
+    display: block;
+    padding: 50px;
+}
+.balance-sheet-wrapper{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px;
+}
+button{
+    margin-top: 20px;
 }
