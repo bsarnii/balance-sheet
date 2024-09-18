@@ -1,0 +1,39 @@
+@for(item of formattedItems(); track $index){
+    @if(item.type === ItemTypesEnum.itemWithoutSubAccounts){
+        @let debitValue = item.openDebitBalance + item.ytdDebitValue;
+        @let creditValue = item.openCreditBalance + item.ytdCreditValue;
+        <div class="item" [style.paddingLeft]="item.isSubAccount ? '20px' : 0">
+            <span>{{item.accountName}}</span>
+            <span>
+                @if(item.debitCredit === DebitCreditEnum.debit){
+                        {{(debitValue - creditValue) | transformTotalValue}}
+                }
+                @if(item.debitCredit === DebitCreditEnum.credit){
+                   {{(creditValue - debitValue) | transformTotalValue}}
+                }
+            </span>
+        </div>
+    }
+    @if(item.type === ItemTypesEnum.itemWithSubAccounts) {
+        <div class="item">{{item.accountName}}</div>
+        @for(subItem of item.subAccounts; track subItem.accountId){
+            @let debitValue = subItem.openDebitBalance + subItem.ytdDebitValue;
+            @let creditValue = subItem.openCreditBalance + subItem.ytdCreditValue;
+            <div class="subitem">
+                <span>{{subItem.accountName}}</span>
+                <span>
+                    @if(subItem.debitCredit === DebitCreditEnum.debit){
+                        {{(debitValue - creditValue) | transformTotalValue}}
+                    }
+                    @if(subItem.debitCredit === DebitCreditEnum.credit){
+                       {{(creditValue - debitValue) | transformTotalValue}}
+                    }
+                </span>
+            </div>
+        }
+        <div class="item total">
+            <span>Total {{item.accountName}}</span>
+            <span>{{item.totalValue | transformTotalValue}}</span>
+        </div>
+    }
+}

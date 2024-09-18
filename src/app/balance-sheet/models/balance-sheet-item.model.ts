@@ -1,5 +1,7 @@
 export interface BalanceSheetItem {
     accountId: string
+    parentAccountId: string
+    isSubAccount: boolean
     category: ItemCategoryEnum
     accountNumber: string
     accountName: string

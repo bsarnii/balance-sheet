@@ -3,21 +3,7 @@
     @if(sectionCategories().includes(category.key)) {
         <section>
             <span class="category-heading">{{category.key | separateCamelCase}}</span>
-        @for(data of category.value; track $index){
-            @let debitValue = data.openDebitBalance + data.ytdDebitValue;
-            @let creditValue = data.openCreditBalance + data.ytdCreditValue;
-            <div class="line">
-                <span>{{data.accountName}}</span>
-                <span>
-                    @if(data.debitCredit === DebitCreditEnum.debit){
-                            {{(debitValue - creditValue) | transformTotalValue}}
-                    }
-                    @if(data.debitCredit === DebitCreditEnum.credit){
-                       {{(creditValue - debitValue) | transformTotalValue}}
-                    }
-                </span>
-            </div>
-        }
+            <app-balance-sheet-subcategory [items]="category.value"/>
         </section>
     }
 }

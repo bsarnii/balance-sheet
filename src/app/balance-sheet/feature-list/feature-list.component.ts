@@ -24,14 +24,13 @@ export class FeatureListComponent {
 
   sortedDataAfterCategory = computed(() => {
     const data = this.facade.data();
-
     return data.reduce(
       (acc, item) => ({
           ...acc,
           [item.category]: [...(acc[item.category] || []), item]
       }),
       {} as Record<string,BalanceSheetItem[]>
-  );
+    );
   })
 
   generatePDF(){

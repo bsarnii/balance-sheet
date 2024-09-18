@@ -1,5 +1,7 @@
 [
     {
+        "parentAccountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "isSubAccount": false,
         "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
         "category": "CurrentAsset",
         "accountNumber": "C1000",
@@ -11,7 +13,35 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "isSubAccount": true,
+        "accountId": "70c75ff9-84c7-425c-9828-fbd1024698da",
+        "category": "CurrentAsset",
+        "accountNumber": "C1001",
+        "accountName": "USD-Bank Account",
+        "debitCredit": "Debit",
+        "openDebitBalance": 10000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 2200.00,
+        "ytdCreditValue": 0
+    },
+    {
+        "parentAccountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "isSubAccount": true,
+        "accountId": "0db477ae-b6f1-45a3-8beb-f887fff16fee",
+        "category": "CurrentAsset",
+        "accountNumber": "C1002",
+        "accountName": "EUR-Bank Account",
+        "debitCredit": "Debit",
+        "openDebitBalance": 12000.00,
+        "openCreditBalance": 0,
+        "ytdDebitValue": 3200.00,
+        "ytdCreditValue": 0
+    },
+    {
+        "parentAccountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "isSubAccount": true,
+        "accountId": "231bea61-6181-4cd9-aedb-db5c4faca4df",
         "category": "CurrentAsset",
         "accountNumber": "C1001",
         "accountName": "Petty Cash",
@@ -22,7 +52,9 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "6825135a-9131-4ff3-9968-384cdc61d260",
+        "isSubAccount": false,
+        "accountId": "6825135a-9131-4ff3-9968-384cdc61d260",
         "category": "CurrentAsset",
         "accountNumber": "A1000",
         "accountName": "Accounts Receivable",
@@ -33,7 +65,9 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "12df7c60-18fa-4176-9263-86c5cb2cf92f",
+        "isSubAccount": false,
+        "accountId": "12df7c60-18fa-4176-9263-86c5cb2cf92f",
         "category": "LongTermAsset",
         "accountNumber": "A100",
         "accountName": "Investments",
@@ -44,7 +78,9 @@
         "ytdCreditValue": 2000
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "5a72f68a-32c5-41b7-a18b-adf3833051e4",
+        "isSubAccount": false,
+        "accountId": "5a72f68a-32c5-41b7-a18b-adf3833051e4",
         "category": "LongTermAsset",
         "accountNumber": "A101",
         "accountName": "Land",
@@ -55,7 +91,9 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "2e947bc4-419b-466f-af2c-742e9c9128ef",
+        "isSubAccount": false,
+        "accountId": "2e947bc4-419b-466f-af2c-742e9c9128ef",
         "category": "LongTermAsset",
         "accountNumber": "B1000",
         "accountName": "Building",
@@ -66,7 +104,9 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "07ecc35e-71ec-4636-a61f-52a2030f589e",
+        "isSubAccount": false,
+        "accountId": "07ecc35e-71ec-4636-a61f-52a2030f589e",
         "category": "LongTermAsset",
         "accountNumber": "Dep1000",
         "accountName": "Accumulated Depreciation",
@@ -77,10 +117,12 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "aefeb810-9bb2-428b-90fb-544edd0e5e52",
+        "isSubAccount": false,
+        "accountId": "aefeb810-9bb2-428b-90fb-544edd0e5e52",
         "category": "CurrentLiabilities",
         "accountNumber": "CL1000",
-        "accountName": "Accoiunts Payable",
+        "accountName": "Accounts Payable",
         "debitCredit": "Credit",
         "openDebitBalance": 20000,
         "openCreditBalance": 0,
@@ -88,7 +130,9 @@
         "ytdCreditValue": 100
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "ff1d7094-7a73-4e6a-99f2-acd018ddecdd",
+        "isSubAccount": false,
+        "accountId": "ff1d7094-7a73-4e6a-99f2-acd018ddecdd",
         "category": "CurrentLiabilities",
         "accountNumber": "CL10001",
         "accountName": "Interest Payable",
@@ -99,7 +143,9 @@
         "ytdCreditValue": 2000
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "b67bfbe2-8820-4c2d-994d-4aa946bed5b1",
+        "isSubAccount": false,
+        "accountId": "b67bfbe2-8820-4c2d-994d-4aa946bed5b1",
         "category": "LongTermLiabilities",
         "accountNumber": "L1000",
         "accountName": "Notes Payable",
@@ -110,7 +156,9 @@
         "ytdCreditValue": 4000
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "0f8e4e91-2824-462b-95da-7d4563dc070b",
+        "isSubAccount": false,
+        "accountId": "0f8e4e91-2824-462b-95da-7d4563dc070b",
         "category": "Equity",
         "accountNumber": "S1000",
         "accountName": "Common Stock",
@@ -121,7 +169,9 @@
         "ytdCreditValue": 0
     },
     {
-        "accountId": "c1119a75-6ff6-4c77-9241-633af84d0e41",
+        "parentAccountId": "b3e6b778-46aa-4554-be5b-deca960ab492",
+        "isSubAccount": false,
+        "accountId": "b3e6b778-46aa-4554-be5b-deca960ab492",
         "category": "Retained Earnings",
         "accountNumber": "R1000",
         "accountName": "Retained Earnings",

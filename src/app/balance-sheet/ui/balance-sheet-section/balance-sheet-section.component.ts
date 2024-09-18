@@ -3,11 +3,12 @@ import { BalanceSheetItem, DebitCreditEnum, ItemCategoryEnum } from '../../model
 import { KeyValuePipe } from '@angular/common';
 import { TransformTotalValuePipe } from '../../utils/transform-total-value.pipe';
 import { SeparateCamelCasePipe } from '../../utils/separate-camel-case.pipe';
+import { BalanceSheetSubcategoryComponent } from "../balance-sheet-subcategory/balance-sheet-subcategory.component";
 
 @Component({
   selector: 'app-balance-sheet-section',
   standalone: true,
-  imports: [KeyValuePipe, TransformTotalValuePipe,SeparateCamelCasePipe],
+  imports: [KeyValuePipe, TransformTotalValuePipe, SeparateCamelCasePipe, BalanceSheetSubcategoryComponent],
   templateUrl: './balance-sheet-section.component.html',
   styleUrl: './balance-sheet-section.component.scss'
 })
